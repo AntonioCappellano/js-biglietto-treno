@@ -29,3 +29,10 @@ per controllare che la vostra logica sui prezzi funzioni correttamente, provate 
 ## Elaborazione
 
 - calcolo se lo sconto viene applicato
+- calcolo il prezzo totale del biglietto in base ai km
+
+## Output
+
+- SE (l'età è minore di 18 togliamo il 20%)
+  ALTRIMENTI SE
+  (l'età è maggiore di 65 togliamo il 40%)
