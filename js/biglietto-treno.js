@@ -24,6 +24,8 @@ if (eta < 18) {
   prezzoTotale = prezzoTotale - (prezzoTotale * 40) / 100;
 }
 
+prezzoTotale = prezzoTotale.toFixed(2);
+
 /* OUTPUT */
 
 alert(`Prezzo finale: €${prezzoTotale}`);
