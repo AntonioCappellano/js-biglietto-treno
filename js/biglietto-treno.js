@@ -14,8 +14,6 @@ const prezzoPerKm = 0.21;
 
 let prezzoTotale = chilometri * prezzoPerKm;
 
-prezzoTotale = prezzoTotale.toFixed(2);
-
 /* ELABORAZIONE */
 
 if (eta < 18) {
